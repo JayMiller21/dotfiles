@@ -1,7 +1,10 @@
-source ~/.environment_vars
+source ~/dotfiles/.environment_vars
  
 # Load the default .profile
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile"
+
+# Editor
+export EDITOR='vim'
 
 # Bash completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
