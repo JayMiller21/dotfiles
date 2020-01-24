@@ -1,0 +1,12 @@
+{
+    “files.autoSave”: “onFocusChange”,
+    “editor.fontSize”: 16,
+    “editor.tabSize”: 2,
+    “files.trimTrailingWhitespace”: true,
+    “window.zoomLevel”: 0,
+    “workbench.editor.enablePreview”: false,
+    “editor.wordWrap”: “on”,
+    “window.title”: “${activeEditorLong}${separator}${rootName}“,
+    “ruby.intellisense”: “rubyLocate”,
+}
+
