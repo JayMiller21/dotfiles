@@ -17,6 +17,9 @@ parse_git_branch() {
 }
 export PS1="\[\e[36m\]\W\$(parse_git_branch)>\[\e[m\] "
 
+# Vi key bindings in command line
+set -o vi
+
 # Map right option to ctrl
 hidutil property --set '{"UserKeyMapping":
     [{"HIDKeyboardModifierMappingSrc":0x7000000e6,
