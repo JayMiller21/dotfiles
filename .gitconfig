@@ -1,0 +1,10 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[user]
+	name = jennmiller
+	email = jmiller@stridenyc.com
+[push]
+	default = simple
