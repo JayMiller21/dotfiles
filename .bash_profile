@@ -47,6 +47,8 @@ alias be="bundle exec"
 # Rbenv
 eval "$(rbenv init -)"
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+
 # ASDF Version management for remote retro
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
